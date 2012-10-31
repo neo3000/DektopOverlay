@@ -30,11 +30,12 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.DataBindings.Add(New System.Windows.Forms.Binding("ImageLocation", Global.WindowsApplication1.My.MySettings.Default, "ImagePath", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.PictureBox1.DataBindings.Add(New System.Windows.Forms.Binding("Size", Global.WindowsApplication1.My.MySettings.Default, "LastSize", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.ImageLocation = Global.WindowsApplication1.My.MySettings.Default.ImagePath
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(352, 262)
+        Me.PictureBox1.Size = Global.WindowsApplication1.My.MySettings.Default.LastSize
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False

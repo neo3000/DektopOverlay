@@ -8,6 +8,7 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
         Form2.Button1.Text = "Hide"
+        Me.Size = My.Settings.LastSize
     End Sub
 
     Private Sub ResizeMe_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles ResizeMe.MouseMove
