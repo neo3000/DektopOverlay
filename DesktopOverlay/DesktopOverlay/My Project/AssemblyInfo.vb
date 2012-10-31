@@ -10,7 +10,7 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("DesktopOverlay")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyCompany("Photomaster.at")> 
 <Assembly: AssemblyProduct("DesktopOverlay")> 
 <Assembly: AssemblyCopyright("Copyright ©  2012 M.Koch")> 
 <Assembly: AssemblyTrademark("")> 
